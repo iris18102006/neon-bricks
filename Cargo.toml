@@ -1,0 +1,11 @@
+[package]
+name = "neon-breakout"
+version = "0.1.0"
+edition = "2021"
+description = "Tiny neon breakout game in Rust. Every brick plays a note."
+
+[dependencies]
+macroquad = "0.4"
+
+[profile.release]
+opt-level = 3
