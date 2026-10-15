@@ -9,3 +9,4 @@ macroquad = "0.4"
 
 [profile.release]
 opt-level = 3
+
